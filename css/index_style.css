@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*side */
+a{
+    text-decoration: none;
+    
+}
+aside{
+    z-index: 99999;
+    font-size: 25px;
+    position:fixed;
+    left: 0px;
+    bottom:0px;
+    top:0px;
+   
+}
+aside div a:hover,.fa-xmark{
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+aside div a:hover, .fa-xmark:hover{
+    color:#d12133 !important
+}
+.open-bars{
+    left: 0px;
+    top: 40%;
+}
+.open-bars span ,.open-bars i{
+    font-size: 30px;
+}
+
+/*1*/
+#home{
+    background-image:url(../images/events-heavenly-header.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    height:660px;
+    position: relative;
+}
+.home-cap{
+    height:660px;
+}
+.homeLayout{
+    position: absolute;
+    background-color:rgba(214, 46, 51 , 0.6);
+}
+.homeCap{
+    z-index: 999;
+}
+/*2 */
+#singers h3{
+    padding: 10px;
+    background-color: rgba(214, 46, 51 , 0.6);
+    cursor: pointer;
+    color: white;
+    margin: 0;
+}
+#singers p{
+    padding: 10px;
+    background-color: #ccc;
+    margin: 0;
+    display: none;
+}
+/*3*/
+#num{
+    background-image:url(../images/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-position:center center;
+    position: relative;
+
+}
+#num .col-lg-3{
+    z-index: 999;
+
+}
+.numCont{
+    padding:50px;
+    font-weight: 500;
+    font-size: 30px;
+}
+/*4*/
+.gray-color{
+    color:dimgrey
+}
+ul{
+    list-style:none;
+}
+.borderGray{
+    border-color:rgb(70, 69, 69);
+}
+#contact .icons li{
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+    border: 1px solid #999;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+}
+#contact .icons li:hover{
+    
+     background-color:rgb(214, 46, 51 );
+}
+#contact .icons li:hover i{
+    color:white;
+}
+.mainColor{
+    color:rgb(214, 46, 51 );
+}
+.btn-danger {
+    --bs-btn-hover-bg: #dc3545;
+}
+#remainingChar{
+    font-size: 20px;
+}
